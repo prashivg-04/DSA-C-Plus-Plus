@@ -1,2 +1,2 @@
-# DSA-C-Plus-Plus
+# Prashiv Goyal
 DSA using C++
