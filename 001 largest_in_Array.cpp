@@ -1,4 +1,4 @@
-//Find Largest in the Array.
+//Find Largest in the Array
 
 #include<iostream>
 using namespace std;
