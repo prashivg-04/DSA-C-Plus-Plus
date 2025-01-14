@@ -11,7 +11,7 @@ int friendsPairing(int n) {
     //Alone
     int ans1 = friendsPairing(n-1);
 
-    //Pair with someone
+    //Pair with someone: A has n-1 options to make pair with
     int ans2 = (n-1) * friendsPairing(n-2);
 
     return ans1 + ans2;
