@@ -30,7 +30,7 @@ bool isSafe(int sudoku[9][9], int row, int col, int n) {
     int startCol = (col/3)*3;
     for(int i = startRow; i <= startRow+2; i++) {
         for(int j = startCol; j <= startCol+2; j++) {
-            if(sudoku[row][i] == n) {
+            if(sudoku[i][j] == n) {
             return false;
             }
         }
